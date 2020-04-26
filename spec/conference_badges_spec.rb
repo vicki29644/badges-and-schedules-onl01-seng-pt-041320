@@ -1,6 +1,6 @@
 def badge_maker(name)
   "Hello, my name is #{name}."
-                  Edgar.
+Hello. my                  Edgar.
 Hello, my name is Charles.
 Hello, my name is Alan.
 Hello, my name is Grace.
