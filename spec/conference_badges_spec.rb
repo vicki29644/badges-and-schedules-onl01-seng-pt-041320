@@ -2,6 +2,8 @@
   "Hello, my name is #{name}."
 end
 
+
+
 def batch_badge_creator(array)
   badge_messages = []
     array.each do |name|
@@ -10,6 +12,8 @@ def batch_badge_creator(array)
   badge_messages
 end
 
+
+
 def assign_rooms(array)
   names_with_room_number = []
   array.each_with_index do |name, index| 
@@ -17,6 +21,8 @@ def assign_rooms(array)
   end
   names_with_room_number
 end
+
+
 
 def printer(array)
   batch_badge_creator(array).each do |list| 
